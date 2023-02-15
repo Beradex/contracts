@@ -1,0 +1,147 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"deposit(uint256,uint256)": "e2bbb158",
+			"lpToken(uint256)": "78ed5d1f",
+			"poolInfo(uint256)": "1526fe27",
+			"totalAllocPoint()": "17caf6f1"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_pid",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_amount",
+					"type": "uint256"
+				}
+			],
+			"name": "deposit",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"name": "lpToken",
+			"outputs": [
+				{
+					"internalType": "contract IERC20",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "pid",
+					"type": "uint256"
+				}
+			],
+			"name": "poolInfo",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "contract IERC20",
+							"name": "lpToken",
+							"type": "address"
+						},
+						{
+							"internalType": "uint256",
+							"name": "allocPoint",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "lastRewardBlock",
+							"type": "uint256"
+						},
+						{
+							"internalType": "uint256",
+							"name": "accSushiPerShare",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct IMasterChef.PoolInfo",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "totalAllocPoint",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+}

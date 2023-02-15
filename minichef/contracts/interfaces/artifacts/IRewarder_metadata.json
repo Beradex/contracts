@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "pid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "diffusionAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newLpAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "onDiffusionReward",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "pid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "diffusionAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "pendingTokens",
+				"outputs": [
+					{
+						"internalType": "contract IERC20[]",
+						"name": "",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"minichefv2/minichefv2/contracts/interfaces/IRewarder.sol": "IRewarder"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"minichefv2/minichefv2/contracts/interfaces/IERC20.sol": {
+			"keccak256": "0xbc2bbe46ffb84b39aa0e39c925b071e3a2ce6e912f7f216619550a38bbf0f9b3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b077c653754a13bf0d291048422c1adc2ec51b838e30127272f6958b46d1e83",
+				"dweb:/ipfs/QmYYs2d1rFJ659xSQRZTbqxLuEsNwmuwSWGqaY5NssdiGz"
+			]
+		},
+		"minichefv2/minichefv2/contracts/interfaces/IRewarder.sol": {
+			"keccak256": "0x1d3c6b87d50558b07447965ef343aadad0c9dbefa4a4dffd4b49e2f7d5c2bbd6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1c02eb09d54dcc117d27a3bf3ab9e71299f43c3c13d64a3078f0d9853155ed38",
+				"dweb:/ipfs/QmSNdw4VbPaj8mQpjs5jorR9JzciJmW62Tq3SdmGhEu4GU"
+			]
+		},
+		"minichefv2/minichefv2/contracts/libraries/BoringERC20.sol": {
+			"keccak256": "0x74e55a994e33a3d6ca777c4adbd573b5427e33030c1e8603dc09f07b5f4d0a51",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://043df994d5868bcfd1780b7bace49b3b1f93fe918f52169ece32312e9912111c",
+				"dweb:/ipfs/QmapbrroyGWnzJ18zXPJDCFcTtaa2L5hJ3f4BZuGsmBy8D"
+			]
+		}
+	},
+	"version": 1
+}

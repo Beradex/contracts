@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libraries/BoringMath.sol": "BoringMath128"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libraries/BoringMath.sol": {
+			"keccak256": "0x697187e610e3fb6d83cbb7a21d3207acd587fee596efde089e48e159ff29687e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://953df827905decc88f68318904ed702d7322978085deebfdb5e47c936f510e1c",
+				"dweb:/ipfs/QmZC2EULXk4HqPCF8z6aMFiGznVfQGhD1QMUPJfpkEtCZh"
+			]
+		}
+	},
+	"version": 1
+}
